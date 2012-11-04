@@ -11,7 +11,7 @@ app.Harness = (function () {
 	method = {
 		boot: function () {//boot all the things!
 			app.Analytics.boot();
-			app.Module.boot();
+			//app.Module.boot();
 		}
 	};
 	api = {boot: method.boot};
