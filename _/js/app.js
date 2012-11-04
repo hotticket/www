@@ -49,7 +49,7 @@ app.Module = (function () {
 app.Analytics = (function () {
 	var cfg, method, api;
 	cfg = {
-		domain: 'www.thehotticket.us',
+		domain: 'thehotticket.us',
 		account_prod: 'UA-36087733-1',
 		account_dev: 'Ohnoes!',
 		account: null
@@ -57,7 +57,7 @@ app.Analytics = (function () {
 	method = {
 		boot: function () {
 			cfg.account = cfg.account_dev;
-			if (window.location.host.indexOf('www.thehotticket.us') !== -1) {
+			if (window.location.host.indexOf(cfg.domain) !== -1) {
 				cfg.account = cfg.account_prod;
 			}
 
