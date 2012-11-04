@@ -49,7 +49,7 @@ app.Module = (function () {
 app.Analytics = (function () {
 	var cfg, method, api;
 	cfg = {
-		domain: 'thehotticket.us',
+		domain: 'www.thehotticket.us',
 		account_prod: 'UA-36087733-1',
 		account_dev: 'Ohnoes!',
 		account: null
