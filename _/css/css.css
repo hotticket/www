@@ -90,20 +90,23 @@ h4 strong {
 @media all and (min-width:481px) {
 
 	html {
-		background-image:url(../img/flame.jpg);
-		background-color:#fff;
-		background-repeat:no-repeat;
-		background-position:50% -20px;
+		background-color:#ccc;
 	}
 
 	body {
-		background-color:transparent;
-		width:80%;margin:0 auto;
-		margin-top:500px;
+		margin: 0 auto;
+		width: 320px;
+		padding-top: 0;
+		height:auto;
 	}
 
 	h1 {
-		background-image:none;
+		position:relative;
+	}
+
+	.ios {
+		left: 50%;
+		margin-left: -95px;
 	}
 
 
