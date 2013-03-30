@@ -26,7 +26,7 @@ app.Module = (function () {
 	method = {
 		boot: function () {
 			method.helloWorld();
-			method.getLocation();
+			//method.getLocation();
 		},
 		helloWorld: function () {
 			app.Dev.log('hello world!');
