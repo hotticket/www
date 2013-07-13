@@ -51,7 +51,7 @@ app.Analytics = (function () {
 	cfg = {
 		domain: 'www.thehotticket.us',
 		account_prod: 'UA-36087733-1',
-		account_dev: 'Ohnoes!',
+		account_dev: 'UA-36087733-1',
 		account: null
 	};
 	method = {
